@@ -5,7 +5,7 @@ public class Ex36 {
 		int m = 1, o = 1;
 		int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 		
-		for (int i = 1; i > n+1; i++) {
+		for (int i = 1; i < n; i++) {
 			o = o * i;
 			m = m + 1/o;
 		}
