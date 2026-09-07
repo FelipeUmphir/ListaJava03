@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 public class Ex36 {
 
 	public static void main(String[] args) {
-		int m = 1, o = 1;
+		double m = 1, o = 1;
 		int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 		
 		for (int i = 1; i < n; i++) {
