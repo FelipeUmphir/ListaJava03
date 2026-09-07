@@ -2,7 +2,7 @@ public class Ex39 {
 
 	public static void main(String[] args) {
 		double m = 1;
-		for (int i = 1; i < 65; i++) {
+		for (int i = 1; i < 64; i++) {
 			m = m + (Math.pow(2, i));
 		}
 		
