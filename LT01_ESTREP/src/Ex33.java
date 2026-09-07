@@ -5,7 +5,7 @@ public class Ex33 {
 		double s = 0;
 		int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 		
-		for (int i = 1; i < (n + 1); i++) { 
+		for (double i = 1; i < (n + 1); i++) { 
 			s = s + 1/i;
 		}
 		
