@@ -1,7 +1,7 @@
 public class Ex42 {
 
 	public static void main(String[] args) {
-		int m = 1, i = 1, s = 0;
+		double m = 1, i = 1, s = 0;
 		
 		while (m < 51) {
 			s = s + m/i;
