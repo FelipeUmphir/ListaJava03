@@ -7,7 +7,7 @@ public class Ex37 {
 		int n = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 		System.out.println("A série de Fibonacci até o termo " + n + "é:");
 		
-		for (int i = 1; i > n+1; i++) {
+		for (int i = 1; i <= n; i++) {
 			System.out.println(a);
 			c = a;
 			a = b;
