@@ -11,6 +11,8 @@ public class Ex45 {
 			else {
 				s = s + (n/Math.pow(n, 2));
 			}
+
+			n = n + 1;
 		}
 		
 		System.out.println("O resultado da série é: " + s);
